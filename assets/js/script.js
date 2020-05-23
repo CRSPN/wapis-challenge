@@ -6,6 +6,24 @@ var answerBtnD = document.getElementById("answer-d")
 //loop the array(s)? of answer buttons and Qs?
 
 //math.random to shuffle the order of the Ans btns
+var getPlName = function() {
+    var name = "";
+    
+        while (name === "" || name === null) {
+            name = prompt("please enter your name.");
+        }
+
+    console.log("Your name is " + name);
+    return name;
+};
+
+var timerPromt = alert("This is a timed quiz, timer= +time if correct/-time if incorrect ");
+
+var stats = [
+    name = getPlName(),
+    time = PlTimeleft.text("time left:" + timeLeft + "sec."),
+]
+
 
 
 answerBtnA.innerHTML = questions[0].a[0].text
@@ -44,5 +62,5 @@ var questions = [
         
     ]},
 ]
-
+// maybe if {Question (); [ ]}
 
