@@ -3,9 +3,9 @@ var answerBtnB = document.getElementById("answer-b");
 var answerBtnC = document.getElementById("answer-c");
 var answerBtnD = document.getElementById("answer-d");
 
-//loop the array(s)? of answer buttons and Qs?
+//loop the array(s)? of  Qs thru buttons?
 
-//math.random to shuffle the order of the Ans btns
+//math.random to shuffle the order of the Ans btns/loop
 
 
 //var timerPromt = alert("This is a timed quiz, timer= +time if correct/-time if incorrect ");
@@ -53,11 +53,11 @@ answerBtnD.innerHTML = questions[0].a[3].text
 
 var quizStart = function(questions) {
    if(a === true) {
-       //add time
+       //add time 
 
    }
     
 
 }
 
-questions.addEventListener("click", quizStart);
+.addEventListener("click", quizStart);
